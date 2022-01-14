@@ -1,5 +1,12 @@
 .container{
     display: flex;
+    
+}
+
+.popular-gears{
+   display: grid;
+grid-template-columns:repeat(3, 1fr);
+
 }
 .gears{
     width: 50%;
