@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+}
+.gears{
+    width: 50%;
+}
+
+.top-heading{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.top-banner{
+    font-family: 'Lato', sans-serif;
+  
+}
+.hyper-button{
+    text-decoration: none;
+    color:rgb(255, 253, 251) ;
+    background-color:mediumvioletred ;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.gear-title{
+    font-family: 'Poppins', sans-serif;
+}
+.fa-star.filled{
+    color: gold;
+}
