@@ -1,15 +1,51 @@
+/*------------- This is heading part ---------*/
+
 .container{
     display: flex;
+    margin-left: 20px;
     
+}
+.gears{
+    width: 50%
+}
+.gears-animation img{
+    position: relative;
+    height: 100px;
+    width: 80px;
+}
+.gears-camera:hover {
+transform: rotate(45deg);
+transform: translate(300px);
+}
+.gears-camera{
+    transition: transform 1s ;
+}
+.gear{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+/* This is Popular Collection Section  */
+
+.popular-container{
+    margin-left: 36px;
+  
+}
+.popular-head{
+    text-align: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+.popular-span{
+    color: lightcoral;
+}
+.popular-heading{
+    margin: 10px, 10px;
 }
 
 .popular-gears{
    display: grid;
 grid-template-columns:repeat(3, 1fr);
-
-}
-.gears{
-    width: 50%;
 }
 
 .top-heading{
@@ -32,4 +68,59 @@ grid-template-columns:repeat(3, 1fr);
 }
 .fa-star.filled{
     color: gold;
+}
+
+/* This is Login Part */
+
+
+.data-entry img{
+    border-radius: 10px;
+}
+.login-container{
+    margin-left: 26px;
+}
+.log-heading{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.form-info{
+    color:green;
+}
+.log-details{
+    color:lightcoral;
+}
+.middle-button{
+    color: mediumvioletred;
+    padding: 10px;
+    margin-left: 1100px;
+    border-radius: 15px;
+    text-decoration: none;
+    
+
+}
+.data-paragraph{
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    margin-left: 110px;
+
+}
+.data-container{
+    display: flex;
+
+}
+
+/* This is Footer part */
+
+.footer-container{
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  
+}
+
+.footer-details{
+background-color: rgb(8, 1, 12);
+font-family: 'Poppins', sans-serif;
+color: lavender;
+text-align: center;
+
 }
