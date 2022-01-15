@@ -124,3 +124,51 @@ color: lavender;
 text-align: center;
 
 }
+         /* Media Queries */
+      
+/* Mobile Devices */
+@media only screen and (max-width:576px) {
+    .top-container{
+     width: 40px;
+     height: 100px;
+    }
+   .top-heading{
+    text-align: center;
+    width: 50%;
+    display: flex;
+    
+
+       }
+    .popular-gears, .login-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+    .gears-camera img{
+        height: 200px;
+        width: 300px;
+        padding-top: 60px;
+
+    }
+    .top-banner, .form{
+        display: none;
+    }
+    .banner-details , .hyper-button{
+        display: none;
+    }
+   
+.login-paragraph{
+    
+    display: none;
+}
+.data-container{
+    width: 10%;
+}
+}
+/* tablet Device */
+@media only screen and (min-width:577px) and (max-width: 768px){
+    .top-container{
+        width: 50%;
+    }
+    
+}
